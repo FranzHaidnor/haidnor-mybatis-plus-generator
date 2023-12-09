@@ -77,6 +77,7 @@ public class SingleModuleGenerator {
                                 .build()
                 )
                 .templateEngine(new FreemarkerTemplateEngine())
+                .templateConfig(builder -> builder.controller("")) // 不生成 controller
                 .execute();
     }
 

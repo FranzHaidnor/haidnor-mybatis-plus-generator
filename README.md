@@ -7,6 +7,7 @@
     <groupId>haidnor</groupId>
     <artifactId>haidnor-mybatis-plus-generator</artifactId>
     <version>1.0</version>
+    <scope>test</scope>
 </dependency>
 ```
 
